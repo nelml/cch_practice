@@ -6,14 +6,10 @@ namespace cch
     {
         static void Main(string[] args)
         {
-            int money;
-            string name;
+            int answer;
+            answer = 3 + 4;
+            Console.WriteLine(answer);
 
-            money = 5000;
-            name = "きたむら";
-
-            Console.WriteLine(money);
-            Console.WriteLine(name);
 
         }
     }
