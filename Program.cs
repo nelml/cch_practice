@@ -6,13 +6,11 @@ namespace cch
     {
         static void Main(string[] args)
         {
-            int life = 1;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("コンギョ");
 
-            life += 3;
-
-            Console.WriteLine(life);
-
-
+            }
         }
     }
 }
