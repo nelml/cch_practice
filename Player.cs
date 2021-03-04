@@ -9,6 +9,13 @@ namespace cch
         public string name;
         public int hp;
 
+        public Player()
+        {
+            this.name = "たかし";
+            this.hp = 100;
+
+        }
+
         public void Attack()
         {
             Console.WriteLine(this.name + "は攻撃した");
