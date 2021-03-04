@@ -6,16 +6,16 @@ namespace cch
     {
         static void Main(string[] args)
         {
-            Player player1 = new Player();
-            player1.name = "たかし";
-            player1.hp = 100;
+            Player player = new Player("ひろし", 2100);
 
-            Player player2 = new Player();
-            player2.name = "ひろし";
-            player2.hp = 50;
+            int hp = player.GetHp();
 
-            player1.Attack();
-            player2.Defense();
+            int newHP = hp - 2000;
+
+            player.SetHp(newHP);
+
+            Console.WriteLine("HPは" + player.GetHp());
+
         }
     }
 }
