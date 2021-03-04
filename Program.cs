@@ -6,12 +6,11 @@ namespace cch
     {
         static void Main(string[] args)
         {
-            int math = 80;
-            int english = 66;
-            int history = 95;
+            int life = 1;
 
-            float average = (math + english + history) / 3.0f;
-            Console.WriteLine("平均は" + average + "点です。");
+            life += 3;
+
+            Console.WriteLine(life);
 
 
         }
